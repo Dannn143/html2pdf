@@ -90,6 +90,7 @@ window.function = function (html, fileName, format, zoom, orientation, margin, b
   
 	button#download {
 	  position: fixed;
+	  z-index: 9999;
 	  border-radius: 0.5rem;
 	  font-size: 14px;
 	  font-weight: 600;
@@ -105,6 +106,7 @@ window.function = function (html, fileName, format, zoom, orientation, margin, b
 	  box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.08), 0 1px 2.5px rgba(0, 0, 0, 0.1);
 	  cursor: pointer;
 	}
+
   
 	button#download:hover {
 	  background: #f5f5f5;
